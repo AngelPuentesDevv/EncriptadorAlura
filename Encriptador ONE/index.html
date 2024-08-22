@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Encriptador ONE</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo-principal">¡Kaku<em>remi</em>¡</h1>
+        <img class="logo-alura" src="imgs/Logo.png" alt="Logo de alura latam">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui:"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje-encriptado" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="rodapie">
+        <p>Angel Puentes, desarrollador de software y científico de datos</p>
+        <p><em>&copy; 2024 Derechos Reservados</em></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

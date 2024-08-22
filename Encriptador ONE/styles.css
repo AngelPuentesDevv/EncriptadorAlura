@@ -1,0 +1,112 @@
+* {
+    background: #b8b3d4;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.titulo-principal {
+    margin: 20px;
+    font-size: xxx-large;
+    text-align: center;
+    text-shadow: #a546ca 2px 2px 1px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.titulo-principal em {
+    text-shadow: #c064b4 -2px -2px 1px;
+    font-size: xxx-large;
+}
+
+.logo-alura {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #84828F;
+    margin-top: 90px;
+    text-transform: lowercase;
+    flex: 1;
+    margin: 10px;
+}
+
+::placeholder {
+    color: #6A687A;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensaje-encriptado {
+    background-color: #a7aada;
+    background-image: url(imgs/Busqueda.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #685F74;
+    margin-top: 20px;
+    margin-left: 98px;
+    padding-left: 20px;
+    flex: 1;
+    margin: 10px;
+}
+
+.mensaje-encriptado:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: #536271;
+    border: 1px solid #2C3D55;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    background-color: #536271;
+    border: 1px solid #2C3D55;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.copiar {
+    background-color: #2C3D55;
+    border: 1px solid #536271;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.rodapie {
+    font-size: 1px;
+}
